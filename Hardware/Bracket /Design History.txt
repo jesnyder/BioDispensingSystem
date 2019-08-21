@@ -5,5 +5,6 @@ First iteration to create a hole pattern using an array, but the hole pattern is
 
 v02 - 
 Found a tape measure to determine the location of the holes. From those measurements made the model. 
+The mounting holes are countersunk to allow the printhead to seat flat against the bracket.
 Added three rows of mounting holes to place the bracket to mount the dispensing tip. 
-The position and tolerance of the holes must be checked. 
+The position and tolerance of the holes must be checked. Consider converting these holes to hexagons (6-sided).
