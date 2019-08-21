@@ -8,7 +8,7 @@ By Jessica Snyder
 /* Base */
 base_width = 60; 
 base_length = 83; 
-base_height = 6;
+base_height = 7;
 
 hole_1_height = base_height;
 hole_1_radius = 3.75;
@@ -49,9 +49,9 @@ for ( i=[11, 11+38] ) {
         cylinder(h = 2*hole_1_height, r=hole_3_radius); 
 }}
         
-for ( i=[1:9] ) {  
+for ( i=[1:7] ) {  
     for ( j=[5+11, 5+11+25, 5+11+25+25 ] ) {   
-        translate( [6*i, j, -hole_1_height/4] ) 
+        translate( [8*i, j, -hole_1_height/4] ) 
         cylinder(h = 2*hole_1_height, r=hole_4_radius); 
 }}
 

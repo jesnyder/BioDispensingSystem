@@ -1,0 +1,9 @@
+Wednesday August 21, 2019 by Jessica Snyder
+
+v01 - 
+First iteration to create a hole pattern using an array, but the hole pattern is not an array. 
+
+v02 - 
+Found a tape measure to determine the location of the holes. From those measurements made the model. 
+Added three rows of mounting holes to place the bracket to mount the dispensing tip. 
+The position and tolerance of the holes must be checked. 
