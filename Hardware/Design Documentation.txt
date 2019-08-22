@@ -1,0 +1,41 @@
+Design documentation for the 3D bioprinting accessory
+by Jessica E. Snyder
+
+Thursday August 22, 2019 
+There are four components to make the 3D printer a bioprinter:
+
+1. Printhead Mounting Plate: (Material: PLA) To attach the printhead to the motion system. 
+This requires a flat plate with a hole pattern that matches the three carriages and bolts to the tread. 
+Additionally, an array of holes to secure the printhead to the plate.  
+
+2. Printhead template: (Material: Water soluble 3D printing filament). The template to make the printhead. Design TBD. 
+Based on the SMMB.
+
+3. Syring Pump :
+
+4. Syringe Pump Clamp 
+
+
+Items for purchase: 
+Lead screw
+Hex nut
+Guide rod
+Spring coupling
+
+
+Optional
+Motor 
+Audrino
+Motor shiled
+
+11:19: On printing the coupling, after 5 mm of good printing, the extrusion stopped. 
+On looking up trouble shooting, again grinding gears came up as a problem. 
+https://www.simplify3d.com/support/print-quality-troubleshooting/stops-extruding-mid-print/
+
+13:18: After printing the coupling adaptor for the spring coupling and the motor stem - 
+the inner diameter to seat the coupling was too small and the hole to fit the motor stem too large. 
+The following edits were made to the design and version changed.
+
+coulpling_od v03: 24 mm v04: 26 mm 
+motor_shaft  v03: 7.5 mm v04: 7.0 mm
+no changes made to the chamfer on the motor stem. 
