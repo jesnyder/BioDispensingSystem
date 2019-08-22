@@ -49,13 +49,13 @@ cube([base_width, base_width, base_height]);
         
      // Hole for the guide rod
     for ( i = [guide_rod_pattern/2, -guide_rod_pattern/2, 0, 0]) {
-         translate([base_width/2+i, -base_width/2, base_width/2])
+         translate([base_width/2+i, -base_width*3/8, base_width/2])
         rotate([90,0,180])
         cylinder(h = 2*base_height + base_length, r=guide_rod_diameter/2); 
         }
         
     for ( i = [guide_rod_pattern/2]) {
-         translate([base_width/2, -base_width/2, base_width/2+i])
+         translate([base_width/2, -base_width*3/8, base_width/2+i])
         rotate([90,0,180])
         cylinder(h = 2*base_height + base_length, r=guide_rod_diameter/2); 
         }
