@@ -10,12 +10,13 @@ base_width = 60;
 base_length = 83; 
 base_height = 7;
 
+/* Added some tolerance for the holes */
 hole_1_height = base_height;
-hole_1_radius = 3.75;
-hole_2_radius = 2;
-hole_3_radius = 2;
-hole_4_radius = 2;
-hexagonal_radius = 3;
+hole_1_radius = 4.75;
+hole_2_radius = 2.1;
+hole_3_radius = 2.1;
+hole_4_radius = 2.1;
+hexagonal_radius = 3.3;
 
 
 /* Make a polygon - hexagon to hold the nut */
