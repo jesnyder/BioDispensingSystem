@@ -26,7 +26,7 @@ Spring coupling
 Optional
 Motor 
 Audrino
-Motor shiled
+Motor shield
 
 11:19: On printing the coupling, after 5 mm of good printing, the extrusion stopped. 
 On looking up trouble shooting, again grinding gears came up as a problem. 
@@ -39,3 +39,14 @@ The following edits were made to the design and version changed.
 coulpling_od v03: 24 mm v04: 26 mm 
 motor_shaft  v03: 7.5 mm v04: 7.0 mm
 no changes made to the chamfer on the motor stem. 
+
+13:25 Begin printing of syringe pump base v01 
+13:31 Canceled, the first layer was irregular and the print time 18 hrs - 
+insufficient time and I changed the layer height - from 0.2 to 0.19 and reduced the speed further.
+Trying to eliminate gaps in the build. 
+
+13:32 Cleaned the build plate with 409 and sprayed with hair spray while the plate was heating. 
+
+13:41 Started the build of the coupling v04 - no extrusion. So I stopped and ran 10 mm extruded at 10 mm/min. 
+This could be a necessary step. Killed printed and restarted. 
+
